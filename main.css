@@ -4,7 +4,11 @@
 body {
   margin-top:20px;
   font-family: Osaka;
-  background-color: ghostwhite;
+  background: 
+    linear-gradient(160deg, transparent 65%, rgba(255,255,255,0.08) 65%),
+    linear-gradient(145deg, #5B86E5 0%, #36D1DC 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
   color: inherit;
 }
 
